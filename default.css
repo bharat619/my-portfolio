@@ -16,6 +16,10 @@ body {
   margin: 0;
 }
 
+body * {
+  transition: 0.3s;
+}
+
 h1,
 h2,
 h3,
@@ -35,6 +39,7 @@ label,
 input,
 textarea {
   font-family: "Roboto Mono", monospace;
+  color: var(--secondaryText);
 }
 
 .s1 {
@@ -85,6 +90,10 @@ textarea {
   border-bottom: 1px solid var(--borderColor);
   align-items: center;
   background-color: var(--mainColor);
+}
+
+#navigation a {
+  color: var(--mainText);
 }
 
 #navigation {
@@ -160,7 +169,7 @@ textarea {
 }
 
 .theme-dot:hover {
-  border-radius: 50%;
+  border-width: 5px;
 }
 
 #light-mode {
