@@ -34,3 +34,11 @@ for (let i = 0; i < themeDots.length; i++) {
     setTheme(mode);
   });
 }
+
+const contact = document.getElementById("contect-link");
+
+const target = document.getElementById("contact-form");
+
+contact.addEventListener("click", function () {
+  target.scrollIntoView({ behavior: "smooth" });
+});
