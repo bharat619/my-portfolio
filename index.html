@@ -81,19 +81,140 @@
 
     <section class="s2">
       <div class="main-container">
-        About
+        <div class="about-wrapper">
+          <div class="about-me">
+            <h4>
+              More about me
+            </h4>
+            <p>
+              This will be my description. This will be a short few lines.This
+              will be my description. This will be a short few lines
+            </p>
+            <p>
+              This will be my description. This will be a short few lines.This
+              will be my description. This will be a short few lines
+            </p>
+            <hr />
+
+            <h4>TOP EXPERTISE</h4>
+            <p>
+              Fullstack developer with primary focus on blablbalbalbabl:
+              <a target="_blank" href="resume.pdf">Download Resume</a>
+            </p>
+            <div id="skills">
+              <ul>
+                <li>Skill</li>
+                <li>Skill</li>
+                <li>Skill</li>
+                <li>Skill</li>
+                <li>Skill</li>
+              </ul>
+
+              <ul>
+                <li>Skill</li>
+                <li>Skill</li>
+                <li>Skill</li>
+                <li>Skill</li>
+                <li>Skill</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <!-- <img id="social_image" src="images/social-media.png" /> -->
+            <h3>Find me on LinkedIn, Instagram, Facebook</h3>
+
+            <a href="#" target="_blank">LinkedIn: @Bharat</a>
+            <br />
+            <a href="#" target="_blank">Instagram: @Bharat</a>
+            <br />
+            <a href="#" target="_blank">Facebook: @Bharat</a>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="s1">
       <div class="main-container">
-        Portfolio
+        <h3 style="text-align: center;">Some of my Blogs</h3>
+        <div class="post-wrapper">
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="images/angular-react.jpeg" alt="" />
+              <div class="post-preview">
+                <h6 class="post-title">Rails with Angular</h6>
+                <p class="post-intro">
+                  This article shows the very basic application set up required
+                  to host a rails application with Angular 5 framework
+                </p>
+                <a
+                  target="_blank"
+                  href="https://blog.kiprosh.com/building-rails-5-application-with-angular-5/"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="images/nextjs.png" alt="" />
+              <div class="post-preview">
+                <h6 class="post-title">A Quick Introduction to NextJS</h6>
+                <p class="post-intro">
+                  A quick introduction to get started with NextJS
+                </p>
+                <a
+                  target="_blank"
+                  href="https://blog.kiprosh.com/a-quick-introduction-to-nextjs/"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="images/eda.jpg" alt="" />
+              <div class="post-preview">
+                <h6 class="post-title">
+                  Exploratory Data Analysis - Vital approach in Data Science
+                </h6>
+                <p class="post-intro">
+                  A quick EDA on uber ride dataset to understand the data
+                  behaviour.
+                </p>
+                <a
+                  target="_blank"
+                  href="https://blog.kiprosh.com/exploratory-data-analysis-a-vital-approach/"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="s2">
       <div class="main-container">
-        Contact
+        <h3 style="text-align: center;">Get in touch</h3>
+
+        <form id="contact-form">
+          <label for="name">Name</label>
+          <input type="text" class="input-field" name="name" />
+
+          <label for="subject">Subject</label>
+          <input type="text" class="input-field" name="subject" />
+
+          <label for="email">Email</label>
+          <input class="input-field" type="email" name="email" />
+
+          <label for="message">Message</label>
+          <textarea class="input-field" name="message"></textarea>
+
+          <input id="submit-btn" type="submit" value="Send" />
+        </form>
       </div>
     </section>
   </body>
