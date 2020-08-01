@@ -35,10 +35,22 @@ for (let i = 0; i < themeDots.length; i++) {
   });
 }
 
-const contact = document.getElementById("contect-link");
+const contact = document.getElementById("contact-link");
+const moreInfo = document.getElementById("more-info-link");
+const blogs = document.getElementById("my-blogs-link");
 
-const target = document.getElementById("contact-form");
+const contactTarget = document.getElementById("contact-form");
+const moreInfoTarget = document.getElementById("main");
+const blogTarget = document.getElementById("blogs");
 
 contact.addEventListener("click", function () {
-  target.scrollIntoView({ behavior: "smooth" });
+  contactTarget.scrollIntoView({ behavior: "smooth" });
+});
+
+moreInfo.addEventListener("click", function () {
+  moreInfoTarget.scrollIntoView({ behavior: "smooth" });
+});
+
+blogs.addEventListener("click", function () {
+  blogTarget.scrollIntoView({ behavior: "smooth" });
 });
