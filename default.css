@@ -411,4 +411,12 @@ ul {
   .right-column {
     justify-content: center;
   }
+
+  #preview {
+    width: 256px;
+  }
+  #corner-tr,#corner-br {
+    right: -16.5rem;
+  }
+
 }

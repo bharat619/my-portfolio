@@ -47,10 +47,10 @@ contact.addEventListener("click", function () {
   contactTarget.scrollIntoView({ behavior: "smooth" });
 });
 
-moreInfo.addEventListener("click", function () {
-  moreInfoTarget.scrollIntoView({ behavior: "smooth" });
-});
+// moreInfo.addEventListener("click", function () {
+//   moreInfoTarget.scrollIntoView({ behavior: "smooth" });
+// });
 
-blogs.addEventListener("click", function () {
-  blogTarget.scrollIntoView({ behavior: "smooth" });
-});
+// blogs.addEventListener("click", function () {
+//   blogTarget.scrollIntoView({ behavior: "smooth" });
+// });
