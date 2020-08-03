@@ -287,7 +287,8 @@ ul {
 
 #social_image {
   width: 100%;
-
+  background-color: black;
+  cursor: pointer;
 }
 
 .post-wrapper{
@@ -310,6 +311,20 @@ ul {
   height: 180px;
   display: block;
   object-fit: cover;
+}
+
+.social-media-image {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 4px  ;
+  display: inline-block;
+  object-fit: cover;
+}
+
+.social-media-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .post-preview {
@@ -351,6 +366,11 @@ ul {
 #contact-form textarea {
   min-height: 100px;
   font-size: 14px;
+}
+
+#contact-link, #more-info-link, #my-blogs-link{
+  cursor: pointer;
+  color: var(--mainText);
 }
 
 .input-field {
