@@ -287,7 +287,8 @@ ul {
 
 #social_image {
   width: 100%;
-
+  background-color: black;
+  cursor: pointer;
 }
 
 .post-wrapper{
@@ -313,8 +314,8 @@ ul {
 }
 
 .social-media-image {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 4px  ;
   display: inline-block;
   object-fit: cover;
@@ -322,9 +323,8 @@ ul {
 
 .social-media-wrapper {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .post-preview {
